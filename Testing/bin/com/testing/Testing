@@ -1,0 +1,43 @@
+### What is Test Execution?
+
+Test Execution is the process of executing the tests written by the tester to check whether the developed code or functions or modules are providing the expected result as per the client requirement or business requirement. Test Execution comes under one of the phases of the Software Testing Life Cycle (STLC).
+
+In the test execution process, the tester will usually write or execute a certain number of test cases, and test scripts or do automated testing. If it creates any errors then it will be informed to the respective development team to correct the issues in the code. If the text execution process shows successful results then it will be ready for the deployment phase after the proper setup for the deployment environment.
+
+**Importance of Test Execution:**
+
+- **The project runs efficiently:** Test execution ensures that the project runs smoothly and efficiently.
+- **Application competency:** It also helps to make sure the application’s competency in the global market.
+- **Requirements are correctly collected:** Test executions make sure that the requirements are collected correctly and incorporated correctly in design and architecture.
+- **Application built in accordance with requirements:** It also checks whether the software application is built in accordance with the requirements or not.
+
+
+### Activities for Test Execution
+
+The following are the 5 main activities that should be carried out during the test execution.
+
+1. **Defect Finding and Reporting:** Defect finding is the process of identifying the bugs or errors raised while executing the test cases on the developed code or modules. If any error appears or any of the test cases failed then it will be recorded and the same will be reported to the respective development team. Sometimes, during the user acceptance testing also end users may find the error and report it to the team. All the recorded details will be reported to the respective team and they will work on the recorded errors or bugs.
+2. **Defect Mapping:** After the error has been detected and reported to the development team, the development team will work on those errors and fix them as per the requirement. Once the development team has done its job, the tester team will again map the test cases or test scripts to that developed module or code to run the entire tests to ensure the correct output.
+3. **Re-Testing:** From the name itself, we can easily understand that Re-Testing is the process of testing the modules or entire product again to ensure the smooth release of the module or product. In some cases, the new module or functionality will be developed after the product release. In this case, all the modules will be re-tested for a smooth release. So that it cannot cause any other defects after the release of the product or application.
+4. **Regression Testing:** Regression Testing is software testing that ensures that the newly made changes to the code or newly developed modules or functions should not affect the normal processing of the application or product.
+5. **System Integration Testing:** System ****Integration Testing is a type of testing technique that will be used to check the entire component or modules of the system in a single run. It ensures that the whole system will be checked in a single test environment instead of checking each module or function separately.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,354 @@
+# Test Execution
+
+### What is Test Execution?
+
+Test Execution is the process of executing the tests written by the tester to check whether the developed code or functions or modules are providing the expected result as per the client requirement or business requirement. Test Execution comes under one of the phases of the Software Testing Life Cycle (STLC).
+
+In the test execution process, the tester will usually write or execute a certain number of test cases, and test scripts or do automated testing. If it creates any errors then it will be informed to the respective development team to correct the issues in the code. If the text execution process shows successful results then it will be ready for the deployment phase after the proper setup for the deployment environment.
+
+**Importance of Test Execution:**
+
+- **The project runs efficiently:** Test execution ensures that the project runs smoothly and efficiently.
+- **Application competency:** It also helps to make sure the application’s competency in the global market.
+- **Requirements are correctly collected:** Test executions make sure that the requirements are collected correctly and incorporated correctly in design and architecture.
+- **Application built in accordance with requirements:** It also checks whether the software application is built in accordance with the requirements or not.
+
+### Activities for Test Execution
+
+The following are the 5 main activities that should be carried out during the test execution.
+
+1. **Defect Finding and Reporting:** Defect finding is the process of identifying the bugs or errors raised while executing the test cases on the developed code or modules. If any error appears or any of the test cases failed then it will be recorded and the same will be reported to the respective development team. Sometimes, during the user acceptance testing also end users may find the error and report it to the team. All the recorded details will be reported to the respective team and they will work on the recorded errors or bugs.
+2. **Defect Mapping:** After the error has been detected and reported to the development team, the development team will work on those errors and fix them as per the requirement. Once the development team has done its job, the tester team will again map the test cases or test scripts to that developed module or code to run the entire tests to ensure the correct output.
+3. **Re-Testing:** From the name itself, we can easily understand that Re-Testing is the process of testing the modules or entire product again to ensure the smooth release of the module or product. In some cases, the new module or functionality will be developed after the product release. In this case, all the modules will be re-tested for a smooth release. So that it cannot cause any other defects after the release of the product or application.
+4. **Regression Testing:** Regression Testing is software testing that ensures that the newly made changes to the code or newly developed modules or functions should not affect the normal processing of the application or product.
+5. **System Integration Testing:** System ****Integration Testing is a type of testing technique that will be used to check the entire component or modules of the system in a single run. It ensures that the whole system will be checked in a single test environment instead of checking each module or function separately.
+
+### Test Execution Process
+
+The test Execution technique consists of three different phases which will be carried out to process the test result and ensure the correctness of the required results. In each phase, various activities or work will be carried out by various team members. The three main phases of test execution are the creation of test cases, test case execution, and validation of test results. Let us discuss each phase.
+
+**1. Creation of Test Cases:** The first phase is to create suitable test cases for each module or function. Here, the tester with good domain knowledge must be required to create suitable test cases. It is always preferable to create simple test cases and the creation of test cases should not be delayed else it will cause excess time to release the product. The created test cases should not be repeated again. It should cover all the possible scenarios raised in the application.
+
+**2. Test Cases Execution:** After test cases have been created, execution of test cases will take place. Here, the Quality Analyst team will either do automated or manual testing depending upon the test case scenario. It is always preferable to do both automated as well as manual testing to have 100% assurance of correctness. The selection of testing tools is also important to execute the test cases.
+
+**3. Validating Test Results:** After executing the test cases, note down the results of each test case in a separate file or report. Check whether the executed test cases achieved the expected result and record the time required to complete each test case i.e., measure the performance of each test case. If any of the test cases is failed or not satisfied the condition then report it to the development team for validating the code.
+
+### Ways to Perform Test Execution
+
+Testers can choose from the below list of preferred methods to carry out test execution:
+
+1. **Run test cases:** It is a simple and easiest approach to run test cases on the local machine and it can be coupled with other artifacts like test plans, test suites, test environments, etc.
+2. **Run test suites:** A test suite is a collection of manual and automated test cases and the test cases can be executed sequentially or in parallel. Sequential execution is useful in cases where the result of the last test case depends on the success of the current test case.
+3. **Run test case execution and test suite execution records:** Recording test case execution and test suite execution is a key activity in the test process and helps to reduce errors, making the testing process more efficient.
+4. **Generate test results without execution:** Generating test results from non-executed test cases can be helpful in achieving comprehensive test coverage.
+5. **Modify execution variables:** Execution variables can be modified in the test scripts for particular test runs.
+6. **Run automated and manual tests:** Test execution can be done manually or can be automated.
+7. **Schedule test artifacts:** Test artifacts include video, screenshots, data reports, etc. These are very helpful as they document the results of the past test execution and provide information about what needs to be done in future test execution.
+8. **Defect tracking:** Without defect tracking test execution is not possible, as during testing one should be able to track the defects and identify what when wrong and where.
+
+### Test Execution Priorities
+
+Test Execution Priorities are nothing but prioritizing the test cases depending upon several factors. It means that it executes the test cases with high efficient first than the other test cases. It depends upon various factors. Let us discuss some of the factors to be considered while prioritizing the test cases.
+
+- **Complexity:** The complexity of the test cases can be determined by including several factors such as boundary values of test cases, features or components of test cases, data entry of test cases, and how much the test cases cover the given business problem.
+- **Risk Covered:** How much risk that a certain test case may undergo to achieve the result. Risk in the form of time required to complete the test case process, space complexity whether it is executed in the given memory space, etc.,
+- **Platforms Covered:** It simply tells that in which platform or operating system the test cases have been executed i.e., test cases executed in the Windows OS, Mac OS, Mobile OS, etc.,
+- **Depth:** It covers how depth the given test cases cover each functionality or module in the application i.e., how much a given test procedure covers all the possible conditions in a single functionality or module.
+- **Breadth:** It covers how the breadth of the given test cases covers the entire functionality or modules in the application i.e., how much a given test procedure covers all the possible conditions in the entire functionality or modules in the product or application.
+
+### Test Execution States
+
+The tester or the Quality Analyst team reports or notices the result of each test case and records it in their documentation or file. There are various results raised when executing the test cases. They are
+
+- **Pass:** It tells that the test cases executed for the module or function are successful.
+- **Fail:** It tells that the test cases executed for the module or function are not successful and resulted in different outputs.
+- **Not Run:** It tells that the test cases are yet to be executed.
+- **Partially Executed:** It tells that only a certain number of test cases are passed and others aren’t met the given requirement.
+- **Inconclusive:** It tells that the test cases are executed but it requires further analysis before the final submission.
+- **In Progress:** It tells that the test cases are currently executed.
+- **Unexpected Result:** It tells that all the test cases are executed successfully but provide different unexpected results.
+
+### Test Execution Cycle
+
+A test execution cycle is an iterative approach that will be helpful in detecting errors. The test execution cycle includes various processes. These are:
+
+1. **Requirement Analysis:** In which, the QA team will gather all the necessary requirements needed for test execution. For example, how many testers are needed, what automation test tools are needed, what testing covers under the given budget, etc., the QA team will also plan depending upon the client or business requirement.
+2. **Test Planning:** In this phase, the QA team will plan when to start and complete the testing. Choosing of correct automation test tool, and testers needed for executing the test plan. They further plan who should develop the test cases for which module/function, who should execute the test cases, how many test cases needed to be executed, etc.,
+3. **Test Cases Development:** This is the phase in which the QA team assigned a group of testers to write or generate the test cases for each module. A tester with good domain knowledge will easily write the best test cases or test scripts. Prioritizing the developed test cases is also the main factor.
+4. **Test Environment Setup:** Test Environment Setup usually differs from project to project. In some cases, it is created by the team itself and it is also created by clients or customers. Test Environment Setup is nothing but testing the entire developed product with suitable software or hardware components or with both by executing all the tests on it. It is essential and it is sometimes carried out along with the test case development process.
+5. **Test Execution:** This stage involves test execution by the team and all the detected bugs are recorded and reported for remediation and rectification.
+6. **Test Closure:** This is the final stage and here it records the entire details of the test execution process. It also contains the end-users testing details. It again modifies the testing process if any defects are found during the testing. Hence, it is a repetitive process.
+
+### Test Execution Report
+
+The Test Execution Report is nothing but a document that contains all the information about the test execution process. It is documentation that will be recorded and updated by the QA team. In that, they just record all the processes happening in the day-to-day test execution activities. The test execution activities are nothing but executing the task related to testing. The documentation or the report contains various information. They are:
+
+- Who all are going to execute the test cases?
+- Who is doing the unit testing, integration testing, system testing, etc.,
+- Who is going to write test cases?
+- The number of test cases executed successfully.
+- The number of test cases failed during the testing.
+- The number of test cases executed today.
+- The number of test cases yet to be executed.
+- What are the automation test tools used for today’s test execution?
+- What are the modules/functions testing today?
+- Recording the issues while executing the test cases.
+- What is today’s testing plan?
+- What is tomorrow’s testing plan?
+- Recording the pending plans.
+- Overall success rate.
+- Overall failure rate.
+
+These are the headings in the Test Execution Report:
+
+- Test Summary Report Identifier.
+- Summary.
+- Variances.
+- Comprehensive Assessment.
+- Summary of Results.
+- Evaluation.
+- Summary of Activities.
+- Approval.
+
+### Guidelines for Test Execution
+
+- Write the suitable test cases for each module of the function.
+- Assign suitable test cases to respective modules or functions.
+- Execute both manual testing as well as automated testing for successful results.
+- Choose a suitable automated tool for testing the application.
+- Choose the correct test environment setup.
+- Note down the execution status of each test case and note down the time taken by the system to complete the test cases.
+- Report all the success status and the failure status to the development team or to the respective team regularly.
+- Track the test status again for the already failed test cases and report it to the team.
+- Highly Skilled Testers are required to perform the testing with less or zero failures/defects.
+- Continuous testing is required until a successful test report is achieved.
+
+# **What is Bug?**
+
+A bug is the consequence/outcome of a coding fault.
+
+# **Defect in Software Testing**
+
+A **Defect in Software Testing** is a variation or deviation of the software application from end user’s requirements or original business requirements. A software defect is an error in coding which causes incorrect or unexpected results from a software program which does not meet actual requirements. Testers might come across such defects while executing the test cases.
+
+These two terms have very thin line of difference, In the Industry both are faults that need to be fixed and so interchangeably used by some of the [Testing](https://www.guru99.com/software-testing.html) teams.
+
+When testers execute the test cases, they might come across such test results which are contradictory to expected results. This variation in test results is referred to as a Software Defect. These defects or variations are referred by different names in different organizations like issues, problems, bugs or incidents.
+
+# **Bug Report in Software Testing**
+
+A **Bug Report in Software Testing** is a detailed document about bugs found in the software application. Bug report contains each detail about bugs like description, date when bug was found, name of tester who found it, name of developer who fixed it, etc. Bug report helps to identify similar bugs in future so it can be avoided.
+
+While reporting the bug to developer, your Bug Report should contain the following information
+
+- **Defect_ID** – Unique identification number for the defect.
+- **Defect Description** – Detailed description of the Defect including information about the module in which Defect was found.
+- **Version** – Version of the application in which defect was found.
+- **Steps** – Detailed steps along with screenshots with which the developer can reproduce the defects.
+- **Date Raised** – Date when the defect is raised
+- **Reference**– where in you Provide reference to the documents like . requirements, design, architecture or maybe even screenshots of the error to help understand the defect
+- **Detected By** – Name/ID of the tester who raised the defect
+- **Status** – Status of the defect , more on this later
+- **Fixed by** – Name/ID of the developer who fixed it
+- **Date Closed** – Date when the defect is closed
+- **Severity** which describes the impact of the defect on the application
+- **Priority** which is related to defect fixing urgency. Severity Priority could be High/Medium/Low based on the impact urgency at which the defect should be fixed respectively
+
+# **What is Defect Management Process?**
+
+Defect Management is a systematic process to identify and fix bugs. A defect management cycle contains the following stages 1) Discovery of Defect, 2) Defect Categorization 3) Fixing of Defect by developers 4) Verification by Testers, 5) Defect Closure 6) Defect Reports at the end of project
+
+![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/d7d2fe78-6a8f-40cf-afd7-d84aeb29e8a9/3c470ba5-a1b6-41a7-baed-5173f2e2aa3b/Untitled.png)
+
+# **Discovery**
+
+In the discovery phase, the project teams have to discover as **many** defects as **possible,** before the end customer can discover it. A defect is said to be discovered and change to status **accepted** when it is acknowledged and accepted by the developers
+
+In the above scenario, the testers discovered 84 defects
+
+![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/d7d2fe78-6a8f-40cf-afd7-d84aeb29e8a9/c2199e08-f57c-45c2-8b45-9eb9fa1f8e5d/Untitled.png)
+
+Let’s have a look at the following scenario; your testing team discovered some issues
+
+They consider them as defects and reported to the development team, but there is a conflict –
+
+![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/d7d2fe78-6a8f-40cf-afd7-d84aeb29e8a9/be93b654-cd4a-4433-b650-3b0254f86dc7/Untitled.png)
+
+**In such case, as a Test Manager, what will you do?**
+
+- [ ]  A) Agree With the test team that its a defect
+- [ ]  B) Test Manager takes the role of judge to decide whether the problem is defect or not
+- [ ]  C) Agree with the development team that is not a defect
+
+In such case, a resolution process should be applied to solve the conflict, you take the role as a judge to decide whether the website problem is a defect or not.
+
+# **Categorization**
+
+Defect categorization help the software developers to prioritize their tasks. That means that this kind of priority helps the developers in fixing those defects first that are highly crucial.
+
+![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/d7d2fe78-6a8f-40cf-afd7-d84aeb29e8a9/2f1e0fcf-4b65-41da-8553-7e319c43cd35/Untitled.png)
+
+Defects are usually categorized by the Test Manager –
+
+Let’s do a small exercise as following
+
+**Drag & Drop the Defect Priority Below**
+
+![Screenshot 2023-10-28 102034.jpg](https://prod-files-secure.s3.us-west-2.amazonaws.com/d7d2fe78-6a8f-40cf-afd7-d84aeb29e8a9/9b52659a-5d8c-453c-8b89-fbee1f56c9e8/Screenshot_2023-10-28_102034.jpg)
+
+![Screenshot 2023-10-28 102120.jpg](https://prod-files-secure.s3.us-west-2.amazonaws.com/d7d2fe78-6a8f-40cf-afd7-d84aeb29e8a9/01698abb-c6d6-4d4f-9046-b5b55162e908/Screenshot_2023-10-28_102120.jpg)
+
+**Defect Resolution** in software testing is a step by step process of fixing the defects. Defect resolution process starts with assigning defects to developers, then developers schedule the defect to be fixed as per priority, then defects are fixed and finally developers send a report of resolution to the test manager. This process helps to fix and track defects easily.
+
+You can follow the following steps to fix the defect.
+
+![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/d7d2fe78-6a8f-40cf-afd7-d84aeb29e8a9/348aaec2-9534-4626-8921-7068b1fd1b32/Untitled.png)
+
+- **Assignment**: Assigned to a developer or other technician to fix, and changed the status to **Responding**.
+- **Schedule fixing**: The developer side take charge in this phase. They will create a schedule to fix these defects, depend on the defect priority.
+- **Fix the defect**: While the development team is fixing the defects, the Test Manager tracks the process of fixing defect compare to the above schedule.
+- **Report the resolution**: Get a report of the resolution from developers when defects are fixed.
+
+# **Verification**
+
+After the development team **fixed** and **reported** the defect, the testing team **verifies** that the defects are actually resolved.
+
+For example, in the above scenario, when the development team reported that they already fixed 61 defects, your team would test again to verify these defects were actually fixed or not.
+
+# **Closure**
+
+Once a defect has been resolved and verified, the defect is changed status as **closed**. If not, you have send a notice to the development to check the defect again.
+
+# **Defect Reporting**
+
+**Defect Reporting** in software testing is a process in which test managers prepare and send the defect report to the management team for feedback on defect management process and defects’ status. Then the management team checks the defect report and sends feedback or provides further support if needed. Defect reporting helps to better communicate, track and explain defects in detail.
+
+The management board has right to know the defect status. They must understand the defect management process to support you in this project. Therefore, you must report them the current defect situation to get feedback from them.
+
+# **Important Defect Metrics**
+
+Back the above scenario. The developer and test teams have reviews the defects reported. Here is the result of that discussion
+
+![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/d7d2fe78-6a8f-40cf-afd7-d84aeb29e8a9/8535eac7-b157-4789-9586-d22021bffbf9/Untitled.png)
+
+**How to measure and evaluate the quality of the test execution?**
+
+This is a question which every Test Manager wants to know. There are 2 parameters which you can consider as following
+
+![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/d7d2fe78-6a8f-40cf-afd7-d84aeb29e8a9/66a1efb7-8f6d-4339-8d3d-a239f87b515d/Untitled.png)
+
+In the above scenario, you can calculate the **defection rejection ratio** (DRR) is **20/84 = 0.238 (23.8 %).**
+
+Another example, supposed the Guru99 Bank website has total **64** defects, but your testing team only detect **44** defects i.e. they missed **20** defects. Therefore, you can calculate the defect leakage ratio (DLR) is 20/64 = **0.312** (31.2 %).
+
+Conclusion, the quality of test execution is evaluated via following two parameters
+
+!https://www.guru99.com/images/TestManagement/testmanagement_article_4_11.png
+
+The smaller value of DRR and DLR is, the better quality of test execution is. What is the ratio range which is **acceptable**? This range could be defined and accepted base in the project target or you may refer the metrics of similar projects.
+
+In this project, the recommended value of acceptable ratio is **5 ~ 10%.** It means the quality of test execution is low. You should find countermeasure to reduce these ratios such as
+
+- **Improve** the testing skills of member.
+- **Spend more time** for testing execution, especially for reviewing the test execution results.
+
+# **What is Defect/Bug Life Cycle?**
+
+**Defect Life Cycle** or Bug Life Cycle in software testing is the specific set of states that defect or bug goes through in its entire life. The purpose of Defect life cycle is to easily coordinate and communicate current status of defect which changes to various assignees and make the defect fixing process systematic and efficient.
+
+# **Defect Status**
+
+**Defect Status** or Bug Status in defect life cycle is the present state from which the defect or a bug is currently undergoing. The goal of defect status is to precisely convey the current state or progress of a defect or bug in order to better track and understand the actual progress of the defect life cycle.
+
+# **Defect States Workflow**
+
+The number of states that a defect goes through varies from project to project. Below lifecycle diagram, covers all possible states
+
+- **New:** When a new defect is logged and posted for the first time. It is assigned a status as NEW.
+- **Assigned:** Once the bug is posted by the tester, the lead of the tester approves the bug and assigns the bug to the developer team
+- **Open**: The developer starts analyzing and works on the defect fix
+- **Fixed**: When a developer makes a necessary code change and verifies the change, he or she can make bug status as “Fixed.”
+- **Pending retest**: Once the defect is fixed the developer gives a particular code for retesting the code to the tester. Since the [software testing](https://www.guru99.com/software-testing-introduction-importance.html) remains pending from the testers end, the status assigned is “pending retest.”
+- **Retest**: Tester does the retesting of the code at this stage to check whether the defect is fixed by the developer or not and changes the status to “Re-test.”
+
+![Screenshot 2023-10-28 103256.jpg](https://prod-files-secure.s3.us-west-2.amazonaws.com/d7d2fe78-6a8f-40cf-afd7-d84aeb29e8a9/16f25c6c-3f38-4070-a7f2-ace61becab85/Screenshot_2023-10-28_103256.jpg)
+
+- **Verified**: The tester re-tests the bug after it got fixed by the developer. If there is no bug detected in the software, then the bug is fixed and the status assigned is “verified.”
+- **Reopen**: If the bug persists even after the developer has fixed the bug, the tester changes the status to “reopened”. Once again the bug goes through the life cycle.
+- **Closed**: If the bug is no longer exists then tester assigns the status “Closed.”
+- **Duplicate**: If the defect is repeated twice or the defect corresponds to the same concept of the bug, the status is changed to “duplicate.”
+- **Rejected**: If the developer feels the defect is not a genuine defect then it changes the defect to “rejected.”
+- **Deferred**: If the present bug is not of a prime priority and if it is expected to get fixed in the next release, then status “Deferred” is assigned to such bugs
+- **Not a bug**: If it does not affect the functionality of the application then the status assigned to a bug is “Not a bug”
+
+****Defect/Bug Life Cycle Explained****
+
+![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/d7d2fe78-6a8f-40cf-afd7-d84aeb29e8a9/9298b7f8-d505-42a1-983e-d95b819f56fe/Untitled.png)
+
+1. Tester finds the defect
+2. Status assigned to defect- New
+3. A defect is forwarded to Project Manager for analyze
+4. Project Manager decides whether a defect is valid
+5. Here the defect is not valid- a status is given “Rejected.”
+6. So, project manager assigns a status **rejected**. If the defect is not rejected then the next step is to check whether it is in scope. Suppose we have another function- email functionality for the same application, and you find a problem with that. But it is not a part of the current release when such defects are assigned as a **postponed or deferred** status.
+7. Next, the manager verifies whether a similar defect was raised earlier. If yes defect is assigned a status **duplicate**.
+8. If no the defect is assigned to the developer who starts fixing the code. During this stage, the defect is assigned a status **in- progress.**
+9. Once the code is fixed. A defect is assigned a status **fixed**
+10. Next, the tester will re-test the code. In case, the [](https://www.guru99.com/test-case.html)Test Case passes the defect is **closed.** If the test cases fail again, the defect is **re-opened** and assigned to the developer.
+11. Consider a situation where during the 1st release of Flight Reservation a defect was found in Fax order that was fixed and assigned a status closed. During the second upgrade release the same defect again re-surfaced. In such cases, a closed defect will be **re-opened.**
+
+### **Severity Vs. Priority: Difference Between Them**
+
+- Priority is the order in which the developer should resolve a defect whereas Severity is the degree of impact that a defect has on the operation of the product.
+- Priority is categorized into three types: low, medium and high whereas Severity is categorized into five types: critical, major, moderate, minor and cosmetic.
+- Priority is associated with scheduling while Severity is associated with functionality or standards.
+- Priority indicates how soon the bug should be fixed whereas Severity indicates the seriousness of the defect on the product functionality.
+- Priority of defects is decided in consultation with the manager/client while Severity levels of the defects are determined by the QA engineer.
+- Priority is driven by business value while Severity is driven by functionality.
+- Priority value is subjective and can change over a period of time depending on the change in the project situation whereas Severity value is objective and less likely to change.
+- High Priority and low severity status indicates, defect have to be fixed on immediate bases but does not affect the application while High Severity and low priority status indicates defect have to be fixed but not on immediate bases.
+- Priority status is based on customer requirements whereas Severity status is based on the technical aspect of the product.
+
+![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/d7d2fe78-6a8f-40cf-afd7-d84aeb29e8a9/5b1c61ed-1c4f-4d08-827f-97fb0a84278f/Untitled.png)
+
+# **What is Bug Severity**
+
+**Bug Severity** or Defect Severity in testing is a degree of impact a bug or a [](https://www.guru99.com/defect-management-process.html)Defect [](https://www.guru99.com/defect-management-process.html)has on the software application under test. A higher effect of bug/defect on system functionality will lead to a higher severity level. A Quality Assurance engineer usually determines the severity level of a bug/defect.
+
+# **What is Priority?**
+
+Priority is defined as the order in which a defect should be fixed. Higher the priority the sooner the defect should be resolved.
+
+Defects that leave the software system unusable are given higher priority over defects that cause a small functionality of the software to fail.
+
+# **Types of Severity**
+
+*In [,](https://www.guru99.com/software-testing-introduction-importance.html) Types of Severity of bug/defect can be categorized into the following parts:*
+
+[•](https://www.guru99.com/software-testing-introduction-importance.html) **Critical**: This defect indicates complete shut-down of the process, nothing can proceed further
+• **Major**: It is a highly severe defect and collapses the system. However, certain parts of the system remain functional
+[•](https://www.guru99.com/software-testing-introduction-importance.html) **Medium**: It causes some undesirable behavior, but the system is still functional
+• **Low**: It won’t cause any major break-down of the system
+
+**Priority Types**
+*Types of Priority of bug/defect can be categorized into three parts :*
+• **Low:** The Defect is an irritant but repair can be done once the more serious Defect has been fixed
+• **Medium:** During the normal course of the development activities defect should be resolved. It can wait until a new version is created
+• **High:** The defect must be resolved as soon as possible as it affects the system severely and cannot be used until it is fixed
+**[](https://www.guru99.com/software-testing-introduction-importance.html)Tips for determining the Severity of a Defect**
+• Decide the frequency of occurrence: In some cases, if the occurrence of a minor-defect is frequent in the code, it can be more severe. So from a user’s perspective, it is more serious even though it is a minor defect.
+• Isolate the defect: Isolating the defect can help to find out its severity of the impact
+
+**Defect Triage**
+Defect triage is a process that tries to do the re-balancing of the process where the test team faces the problem of limited availability of resources. So, when there are large number of the defect and limited testers to verify them, defect triage helps to try to get as many defects resolved based on defect parameters like severity and priority.
+[](https://www.guru99.com/software-testing-introduction-importance.html)**How to determine Defect Triage:**
+Most systems use priority as the main criteria to assess the defect. However, a good triage process considers the severity as well.
+
+![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/d7d2fe78-6a8f-40cf-afd7-d84aeb29e8a9/19857f44-c81d-4c1e-8944-56632bb0e916/Untitled.png)
+
+The triage process includes the following steps
+• Reviewing all the defects including rejected defects by the team
+• Initial assessment of the defects is based on its content and respective priority and severity settings
+• Prioritizing the defect based on the inputs
+• Assign the defect to correct release by product manager
+• Re-directs the defect to the correct owner/team for further action
